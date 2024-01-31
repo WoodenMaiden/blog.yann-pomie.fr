@@ -2,6 +2,7 @@
 title: My Opensource contributions
 author: Yann POMIE
 description: A list of (F)OSS projects I contributed to
+date: 2024-01-30
 ---
 
 > [!SUMMARY]- README!
@@ -17,12 +18,10 @@ During my both my [engineering training](https://www.polytech.umontpellier.fr/fo
 
 - [Gama Platform](https://gama-platform.org/)
 
-<!--
 **Personally initiated projects**: 
 
 - [RelFinderReformed](https://github.com/WoodenMaiden/RelfinderReformedAPI)
 - [TimeCopSync](https://github.com/TimeCopSync)
--->
 ## Contributions
 
 ### Gama Platform
@@ -46,3 +45,26 @@ Besides that I mostly work on the CI the packaging and the delivery of Gama here
 - Setting up [CICD workflows](https://github.com/gama-platform/gama.distribution) to distribute the software under a variety of forms 
 
 
+### RelFinderReformed (or RFR for short)
+
+| Repos/Organizations | Status | Stars | Stack |
+| :--: | :--: | :--: | :--: |
+| https://github.com/WoodenMaiden/RelfinderReformedAPI<br>https://github.com/WoodenMaiden/RelfinderReformedFront | In development - Not Production Ready | 1 | NestJS, React |
+
+RFR is an attempt to recreate a maintain a web Application named Relfinder which was used to determined the relations between two entities in a [RDF knowledge graph](https://en.wikipedia.org/wiki/Resource_Description_Framework). First made to replace the Relfinder instanced used by the [AgroLD platform](https://github.com/SouthGreenPlatform/AgroLD_webapp),  I made it OpenSource and as agnostic as possible so the semantic web community could use it. 
+
+> [!Important] 
+> As of today's date (2024-01-30) RFR is currently under a complete overhaul into a NestJS app, the project will be production-ready when PR [#16](https://github.com/WoodenMaiden/RelfinderReformedAPI/pull/16) will be merged.
+
+![[rfr_test.png]]
+
+
+### TimeCopSync
+
+| Repos/Organizations | Status | Stars | Stack |
+| :--: | :--: | :--: | :--: |
+| https://github.com/orgs/TimeCopSync<br>https://github.com/TimeCopSync/timecopsync-crud<br>https://github.com/TimeCopSync/timecop-sync | In early development | 0 | Elixir, <br>Flutter,<br>Phoenix |
+
+This project aims to provide an online hosting, synchronisation and integrations of a project named [timecop](https://github.com/hamaluik/timecop), an offline-first time tracker that I regularly use. This app allows you to register the time you spent on tasks related to projects, however it becomes cumbersome when you want to synchronize your timers across several devices, moreover it could have some interesting integrations with managing solutions like Jira, Notion and so on. This project is some kind of sandbox on which I experiment new languages like elixir and try to apply what I learned through my DevOps courses. 
+
+![[timecop.png]]

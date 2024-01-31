@@ -5,7 +5,6 @@ aliases:
   - landing
   - home
   - index
-date: 2024-01-30
 author: Yann POMIE
 ---
 
