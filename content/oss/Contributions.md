@@ -17,6 +17,7 @@ During my both my [engineering training](https://www.polytech.umontpellier.fr/fo
 # Projects
 
 - [Gama Platform](https://gama-platform.org/)
+- [Faast-rt](https://github.com/faast-rt)
 
 **Personally initiated projects**: 
 
@@ -44,6 +45,15 @@ Besides that I mostly work on the CI the packaging and the delivery of Gama here
 - Setting up a Debian [repository hosted with cloud flare pages](https://github.com/gama-platform/gama.ppa)
 - Setting up [CICD workflows](https://github.com/gama-platform/gama.distribution) to distribute the software under a variety of forms 
 
+### Faast-rt
+
+| Repos/Organizations | Status | Stars | Stack |
+| :--: | :--: | :--: | :--: |
+| https://github.com/faast-rt | Alive | 14 | Rust |
+
+Faast-rt is a server-less runtime written in rust that allows you to securely run code you supply to it. At first it was a class project we made for a course about virtualization, we later used it to allow an Programming courses project named [Polycode](https://polycode.do-2021.fr/) to run code for exercises.
+
+I worked on this project by providing an agent that takes a workspace filled with files, ran a list of command in said workspace and send back both standard output and error streams back to the caller, in the case of the Polycode project the workspace was filled with the code the user send and the commands the required build and run commands. I also helped setting up tests and a few fixes for the project   
 
 ### RelFinderReformed (or RFR for short)
 
