@@ -31,7 +31,7 @@ During my both my [engineering training](https://www.polytech.umontpellier.fr/fo
 | :----: | :----: | :----: | :----: |
 | https://github.com/gama-platform<br>https://github.com/gama-platform/gama<br>https://github.com/gama-platform/gama.ppa<br>https://github.com/gama-platform/gama.distribution | Alive | 300 | Java, RCP Stack, Github Actions |
 
-The [GAMA](https://gama-platform.org/) platform (_**G**IS **A**gent-based **M**odeling **A**rchitecture_) is an IDE for writing agent-based simulations. It involves a type of simulation where the logic is implemented at the level of the agents participating in the simulation. Each type of agent carries its own logic and interactions with other types of agents. For example, you can define that a predator-type agent roams in a plain and reproduces when it eats a prey-type agent.
+The [GAMA](https://gama-platform.org/) platform (**G**IS **A**gent-based **M**odeling **A**rchitecture) is an IDE for writing agent-based simulations. It involves a type of simulation where the logic is implemented at the level of the agents participating in the simulation. Each type of agent carries its own logic and interactions with other types of agents. For example, you can define that a predator-type agent roams in a plain and reproduces when it eats a prey-type agent.
 
 GAMA offers an IDE as well as the GAML (**GA**ma **M**odeling **L**anguage) language to enable its users to carry out this kind of modeling. It is also possible to perform more complex modeling thanks to its plugin system, which allows for modeling in three dimensions as well as interacting with a database.
 

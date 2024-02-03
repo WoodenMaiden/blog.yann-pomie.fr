@@ -1,5 +1,5 @@
 ---
-title: Yann POMIE's Blog
+title: Welcome to my blog
 description: Yann "WoodenMaiden" POMIE's blog, about IT, OSS and DevOps
 aliases:
   - landing

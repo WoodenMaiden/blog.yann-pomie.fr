@@ -3,39 +3,40 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🦭 Yann POMIE",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      websiteId: "9d6c263a-0de4-4a28-94d1-ab25c1333ba2"
     },
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "blog.yann-pomie.fr",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "published",
     theme: {
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Julius Sans One",
+        body: "Montserrat",
+        code: "Source Sans Pro",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
+          light: "#fbf1c7",
+          lightgray: "#d5c4a1",
+          gray: "#928374",
+          darkgray: "#7c6f64",
+          dark: "#282828",
+          secondary: "#427b58",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
+          light: "#282828",
+          lightgray: "#504945",
+          gray: "#928374",
+          darkgray: "#a89984",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#689d6a",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
