@@ -17,7 +17,7 @@ S -> bSb
 On peut avoir ![[Pasted image 20240211020403.png]]
 
 > [!IMPORTANT]
-On définit donc une grammaire hors-contexte $G <A_N, \Sigma, P, S>$ où on a:
+> On définit donc une grammaire hors-contexte $G <A_N, \Sigma, P, S>$ où on a:
 > - $A_N$ est l'ensemble des symboles non-terminaux
 > - $\Sigma$ un alphabet
 > - $P$ un ensemble de règles de la forme $X -> a$
