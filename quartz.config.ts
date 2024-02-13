@@ -3,6 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
+    locale: "fr-FR",
     pageTitle: "🦭 Yann POMIE",
     enableSPA: true,
     enablePopovers: true,

@@ -8,11 +8,19 @@ Soit un [[Alphabets et mots|alphabet]] $\Sigma$ on exprime $\Sigma *$ l'ensemble
 ## Définir un langage formel
 
 Langages définis en extension.
-$$L_a = \{ \epsilon, a, aa, aaa \}$$
-$$L_i = \{ a, b, aaa, aba \}$$
+$$
+L_a = \{ \epsilon, a, aa, aaa \}
+$$
+$$
+L_i = \{ a, b, aaa, aba \}
+$$
 Langages définis en intention.
-$$ L^\prime_a = \{ mots\, dont\, toutes\, les\, lettres\, sont\, des\, a \}$$
-$$L^\prime_i = \{ u \in \Sigma * tel\, que\, \exists n \in \mathbb{N}, |u| = 2n + 1 \}$$
+$$
+L^\prime_a = \{ mots\, dont\, toutes\, les\, lettres\, sont\, des\, a \}
+$$
+$$
+L^\prime_i = \{ u \in \Sigma * tel\, que\, \exists n \in \mathbb{N}, |u| = 2n + 1 \}
+$$
 
 ## Opérations sur les langages
 
