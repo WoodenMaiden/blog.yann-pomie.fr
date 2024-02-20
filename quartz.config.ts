@@ -19,7 +19,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Julius Sans One",
         body: "Montserrat",
-        code: "Source Sans Pro",
+        code: "Source Code Pro",
       },
       colors: {
         lightMode: {
