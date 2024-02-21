@@ -23,12 +23,13 @@ end
 
 When you decompose the calls of this function, here is the calling tree you get: 
 
-![[fib.png]]
+![[fib.png|center]]
+
 Don't you see something shocking ? Besides the number of calls that have been made for such a small input, the quantity of redundant function calls you do is insanely high.
 
 By caching the results of ``fibonacci(n)`` we would cut down the calling tree like this: 
 
-![[fib_cached.png]]
+![[fib_cached.png|center]]
 
 And as you can imagine, you greatly reduce the resourced used by the function.
 
