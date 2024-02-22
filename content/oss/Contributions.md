@@ -16,6 +16,8 @@ During my both my [engineering training](https://www.polytech.umontpellier.fr/fo
 
 # Projects
 
+**Community projects**: 
+
 - [Gama Platform](https://gama-platform.org/)
 - [Faast-rt](https://github.com/faast-rt)
 
@@ -29,7 +31,7 @@ During my both my [engineering training](https://www.polytech.umontpellier.fr/fo
 
 | Repos/Organizations | Status | Stars | Stack |
 | :----: | :----: | :----: | :----: |
-| https://github.com/gama-platform<br>https://github.com/gama-platform/gama<br>https://github.com/gama-platform/gama.ppa<br>https://github.com/gama-platform/gama.distribution | Alive | 300 | Java, RCP Stack, Github Actions |
+| https://github.com/gama-platform<br>https://github.com/gama-platform/gama<br>https://github.com/gama-platform/gama.old<br>https://github.com/gama-platform/gama.ppa<br>https://github.com/gama-platform/gama.distribution | Alive | 300 | Java, RCP Stack, Github Actions |
 
 The [GAMA](https://gama-platform.org/) platform (**G**IS **A**gent-based **M**odeling **A**rchitecture) is an IDE for writing agent-based simulations. It involves a type of simulation where the logic is implemented at the level of the agents participating in the simulation. Each type of agent carries its own logic and interactions with other types of agents. For example, you can define that a predator-type agent roams in a plain and reproduces when it eats a prey-type agent.
 
@@ -63,11 +65,7 @@ I worked on this project by providing an agent that takes a workspace filled wit
 
 RFR is an attempt to recreate a maintain a web Application named Relfinder which was used to determined the relations between two entities in a [RDF knowledge graph](https://en.wikipedia.org/wiki/Resource_Description_Framework). First made to replace the Relfinder instanced used by the [AgroLD platform](https://github.com/SouthGreenPlatform/AgroLD_webapp),  I made it OpenSource and as agnostic as possible so the semantic web community could use it. 
 
-> [!Important] 
-> As of today's date (2024-01-30) RFR is currently under a complete overhaul into a NestJS app, the project will be production-ready when PR [#16](https://github.com/WoodenMaiden/RelfinderReformedAPI/pull/16) will be merged.
-
 ![[rfr_test.png]]
-
 
 ### TimeCopSync
 
