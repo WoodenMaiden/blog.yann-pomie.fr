@@ -11,31 +11,7 @@ We had to apply this method in our favorite programming language on the Fibonacc
 
 As mentioned in the [[Dynamic Programming]] page caching redundant function calls will allow us to spare computational power and save us many amounts of time and memory. 
 
-[The Fibonacci suite](https://en.wikipedia.org/wiki/Fibonacci_sequence) is the prime example of this, let's take at the usual implementation of it: 
-
-```elixir
-def fibonacci(n) do 
-  case n do 
-    _ when n < 2 -> n
-    _ -> fibonacci(n - 1) + fibonacci(n - 2)
-end
-```
-
-When you decompose the calls of this function, here is the calling tree you get: 
-
-![[fib.png|center]]
-
-Don't you see something shocking ? Besides the number of calls that have been made for such a small input, the quantity of redundant function calls you do is insanely high.
-
-By caching the results of ``fibonacci(n)`` we would cut down the calling tree like this: 
-
-![[fib_cached.png|center]]
-
-And as you can imagine, you greatly reduce the resourced used by the function.
-
-> [!NOTE]
-> What we effectively have here is a recursive function that itself two times for each input $n$, giving it effectively a exponential complexity of $\mathcal{O}(2^n)$ 
-> Now with caching we simplified our tree by trimming one of the two recursive calls bringing down it's complexity to $\mathcal{O}(n)$
+![[Dynamic Programming#Caching]]
 
 ## Writing the actual caching decorator
 
